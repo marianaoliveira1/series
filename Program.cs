@@ -1,2 +1,13 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿using System;
+
+namespace series
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            Series meuObjeto = new Series();
+            Console.WriteLine("Hello World!");
+        }
+    }
+}
